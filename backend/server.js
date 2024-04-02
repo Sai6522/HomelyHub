@@ -1,83 +1,77 @@
-const _0x4503ba = _0x4a4b;
-function _0x5be0() {
-  const _0x353338 = [
-    "./app",
-    "3981nmofgA",
-    "988zjHjFE",
-    "2opPTQH",
-    "mongoose",
-    "dotenv",
-    "4122CPmrfr",
-    "DATABASE_LOCAL",
-    "2191790JzxujN",
-    "77zkVjnK",
-    "1017350aivTGa",
-    "2611ymMNwQ",
-    "2671855JFnFWA",
-    "config",
-    "150291PrRUeN",
-    "connect",
-    "env",
-    "3363216fJpxJG",
-    "then",
-    "DB\x20connection\x20Succesfull",
-    "log",
-    "584lBPJPB",
-    "listen",
-  ];
-  _0x5be0 = function () {
-    return _0x353338;
-  };
-  return _0x5be0();
-}
-(function (_0x2b856d, _0x2c455a) {
-  const _0x3ceb70 = _0x4a4b,
-    _0x5cbdbb = _0x2b856d();
+const _0x30fa17 = _0x2fdd;
+(function (_0x2971a0, _0x483aa6) {
+  const _0x3b7b54 = _0x2fdd,
+    _0x843c2e = _0x2971a0();
   while (!![]) {
     try {
-      const _0x3f8340 =
-        (parseInt(_0x3ceb70(0x1cd)) / 0x1) *
-          (-parseInt(_0x3ceb70(0x1c6)) / 0x2) +
-        (-parseInt(_0x3ceb70(0x1c4)) / 0x3) *
-          (parseInt(_0x3ceb70(0x1c5)) / 0x4) +
-        -parseInt(_0x3ceb70(0x1cf)) / 0x5 +
-        (parseInt(_0x3ceb70(0x1c9)) / 0x6) *
-          (parseInt(_0x3ceb70(0x1ce)) / 0x7) +
-        (parseInt(_0x3ceb70(0x1c1)) / 0x8) *
-          (parseInt(_0x3ceb70(0x1d1)) / 0x9) +
-        (-parseInt(_0x3ceb70(0x1cb)) / 0xa) *
-          (-parseInt(_0x3ceb70(0x1cc)) / 0xb) +
-        -parseInt(_0x3ceb70(0x1bd)) / 0xc;
-      if (_0x3f8340 === _0x2c455a) break;
-      else _0x5cbdbb["push"](_0x5cbdbb["shift"]());
-    } catch (_0x598a8b) {
-      _0x5cbdbb["push"](_0x5cbdbb["shift"]());
+      const _0x51fd63 =
+        -parseInt(_0x3b7b54(0xd5)) / 0x1 +
+        (parseInt(_0x3b7b54(0xd6)) / 0x2) * (-parseInt(_0x3b7b54(0xd9)) / 0x3) +
+        parseInt(_0x3b7b54(0xc8)) / 0x4 +
+        (parseInt(_0x3b7b54(0xcb)) / 0x5) * (-parseInt(_0x3b7b54(0xd2)) / 0x6) +
+        (-parseInt(_0x3b7b54(0xdb)) / 0x7) * (parseInt(_0x3b7b54(0xdc)) / 0x8) +
+        parseInt(_0x3b7b54(0xd0)) / 0x9 +
+        (parseInt(_0x3b7b54(0xd1)) / 0xa) * (parseInt(_0x3b7b54(0xd7)) / 0xb);
+      if (_0x51fd63 === _0x483aa6) break;
+      else _0x843c2e["push"](_0x843c2e["shift"]());
+    } catch (_0x2c6cd7) {
+      _0x843c2e["push"](_0x843c2e["shift"]());
     }
   }
-})(_0x5be0, 0xcf76d);
-const mongoose = require(_0x4503ba(0x1c7)),
-  app = require(_0x4503ba(0x1c3)),
-  dotenv = require(_0x4503ba(0x1c8));
-dotenv[_0x4503ba(0x1d0)]({ path: "./config.env" });
-let DB = process[_0x4503ba(0x1bc)][_0x4503ba(0x1ca)];
-console[_0x4503ba(0x1c0)](DB),
-  mongoose[_0x4503ba(0x1bb)](DB)[_0x4503ba(0x1be)](() => {
-    const _0xa20632 = _0x4503ba;
-    console["log"](_0xa20632(0x1bf));
+})(_0x251f, 0x534cf);
+const mongoose = require(_0x30fa17(0xd3)),
+  app = require(_0x30fa17(0xd8)),
+  dotenv = require(_0x30fa17(0xc9));
+dotenv["config"]({ path: _0x30fa17(0xd4) });
+let DB = process["env"][_0x30fa17(0xda)];
+console[_0x30fa17(0xca)](DB),
+  mongoose["connect"](DB)[_0x30fa17(0xce)](() => {
+    const _0x50fe72 = _0x30fa17;
+    console[_0x50fe72(0xca)](_0x50fe72(0xcc));
   });
-function _0x4a4b(_0x1092a2, _0x5694ea) {
-  const _0x5be004 = _0x5be0();
+const port = process["env"][_0x30fa17(0xcf)];
+function _0x2fdd(_0x4c6fda, _0x70619e) {
+  const _0x251f1f = _0x251f();
   return (
-    (_0x4a4b = function (_0x4a4b84, _0x5e2d7a) {
-      _0x4a4b84 = _0x4a4b84 - 0x1bb;
-      let _0x15f91e = _0x5be004[_0x4a4b84];
-      return _0x15f91e;
+    (_0x2fdd = function (_0x2fddf4, _0x1b758b) {
+      _0x2fddf4 = _0x2fddf4 - 0xc7;
+      let _0x54eb03 = _0x251f1f[_0x2fddf4];
+      return _0x54eb03;
     }),
-    _0x4a4b(_0x1092a2, _0x5694ea)
+    _0x2fdd(_0x4c6fda, _0x70619e)
   );
 }
-const port = process[_0x4503ba(0x1bc)]["PORT"];
-app[_0x4503ba(0x1c2)](port, () => {
-  const _0x4ad40b = _0x4503ba;
-  console[_0x4ad40b(0x1c0)]("App\x20Running\x20on\x20port:\x20" + port);
+function _0x251f() {
+  const _0x560693 = [
+    "612492wTGuuz",
+    "mongoose",
+    "./config.env",
+    "645055QfyGrw",
+    "57690xDUcPc",
+    "66WBuXRM",
+    "./app",
+    "66rvDqdx",
+    "DATABASE",
+    "146188ZlEJBW",
+    "56oIWHXX",
+    "listen",
+    "2071020QaLzcb",
+    "dotenv",
+    "log",
+    "5jPNPRz",
+    "DB\x20connection\x20Succesfull",
+    "App\x20Running\x20on\x20port:\x20",
+    "then",
+    "PORT",
+    "5145525IQOgSV",
+    "1299390wWprek",
+  ];
+  _0x251f = function () {
+    return _0x560693;
+  };
+  return _0x251f();
+}
+app[_0x30fa17(0xc7)](port, () => {
+  const _0x32f832 = _0x30fa17;
+  console[_0x32f832(0xca)](_0x32f832(0xcd) + port);
 });
